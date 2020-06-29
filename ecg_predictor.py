@@ -127,7 +127,7 @@ def unify_data(x, number_cycles):
     return xx
 
 def plot_ecg_data_trained(y_real, y_predicted, data, number_cycles):
-    # Get n cyvles to plot from train and test
+    # Get n cycles to plot from train and test
     n = 250
     total_samples = n * number_cycles
     vertical_lines = range(n,total_samples+n,n)
